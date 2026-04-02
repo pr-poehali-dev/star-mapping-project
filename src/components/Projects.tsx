@@ -8,7 +8,7 @@ const projects = [
     category: "2-комнатная квартира · 63.8 м² · 6/10 эт.",
     location: "Киров, р-н Первомайский",
     year: "11 000 000 ₽",
-    image: "/images/hously-1.png",
+    image: "https://cdn.poehali.dev/projects/0310d3c5-5cfa-44fd-bdb9-25f13d127fc6/bucket/40272952-7bd8-4980-ae1a-1ffc0a9eb1d2.png",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const projects = [
     category: "1-комнатная квартира · 31.5 м² · 3/5 эт.",
     location: "Киров, р-н Ленинский",
     year: "4 795 000 ₽",
-    image: "/images/hously-2.png",
+    image: "https://cdn.poehali.dev/projects/0310d3c5-5cfa-44fd-bdb9-25f13d127fc6/bucket/b8b7b412-d205-41ed-a6c1-dd1c14b038d4.png",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const projects = [
     category: "2-комнатная квартира · 51.5 м² · 2/10 эт.",
     location: "Киров, р-н Ленинский",
     year: "6 200 000 ₽",
-    image: "/images/hously-3.png",
+    image: "https://cdn.poehali.dev/projects/0310d3c5-5cfa-44fd-bdb9-25f13d127fc6/bucket/fe6adc1b-0305-4334-a094-961a334567b8.png",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const projects = [
     category: "1-комнатная квартира · 42.6 м² · 6/16 эт.",
     location: "Киров, р-н Ленинский",
     year: "7 000 000 ₽",
-    image: "/images/hously-4.png",
+    image: "https://cdn.poehali.dev/projects/0310d3c5-5cfa-44fd-bdb9-25f13d127fc6/bucket/9b2af835-f468-49fc-b32d-8a7c00e5847c.png",
   },
 ]
 
