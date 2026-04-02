@@ -45,24 +45,17 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:hello@realty.ru" className="hover:text-foreground transition-colors">
-                  hello@realty.ru
+                <a href="mailto:gildiya43@yandex.ru" className="hover:text-foreground transition-colors">
+                  gildiya43@yandex.ru
                 </a>
               </li>
               <li>
-                <a href="tel:+74951234567" className="hover:text-foreground transition-colors">
-                  +7 (495) 123-45-67
+                <a href="tel:+78332455402" className="hover:text-foreground transition-colors">
+                  (8332) 455-402
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Телеграм
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  ВКонтакте
-                </a>
+              <li className="text-muted-foreground">
+                610017, г. Киров,<br />ул. Молодой Гвардии, д. 82
               </li>
             </ul>
           </div>
@@ -70,7 +63,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2026 Риэлторское агентство. Все права защищены.</p>
+          <p>© 2026 АКО «Гильдия Риэлторов Вятки». Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности
