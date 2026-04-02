@@ -9,6 +9,7 @@ const projects = [
     location: "Киров, р-н Первомайский",
     year: "11 000 000 ₽",
     image: "https://cdn.poehali.dev/projects/0310d3c5-5cfa-44fd-bdb9-25f13d127fc6/bucket/40272952-7bd8-4980-ae1a-1ffc0a9eb1d2.png",
+    avito: "https://www.avito.ru/kirovskaya_oblast_kirov/kvartiry/2-k._kvartira_638_m_610_et._7613863274",
   },
   {
     id: 2,
@@ -17,6 +18,7 @@ const projects = [
     location: "Киров, р-н Ленинский",
     year: "4 795 000 ₽",
     image: "https://cdn.poehali.dev/projects/0310d3c5-5cfa-44fd-bdb9-25f13d127fc6/bucket/b8b7b412-d205-41ed-a6c1-dd1c14b038d4.png",
+    avito: "https://www.avito.ru/kirovskaya_oblast_kirov/kvartiry/1-k._kvartira_315_m_35_et._8037419357",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const projects = [
     location: "Киров, р-н Ленинский",
     year: "6 200 000 ₽",
     image: "https://cdn.poehali.dev/projects/0310d3c5-5cfa-44fd-bdb9-25f13d127fc6/bucket/fe6adc1b-0305-4334-a094-961a334567b8.png",
+    avito: "https://www.avito.ru/kirovskaya_oblast_kirov/kvartiry/2-k._kvartira_515_m_210_et._7941523429",
   },
   {
     id: 4,
@@ -33,6 +36,7 @@ const projects = [
     location: "Киров, р-н Ленинский",
     year: "7 000 000 ₽",
     image: "https://cdn.poehali.dev/projects/0310d3c5-5cfa-44fd-bdb9-25f13d127fc6/bucket/9b2af835-f468-49fc-b32d-8a7c00e5847c.png",
+    avito: "https://www.avito.ru/kirovskaya_oblast_kirov/kvartiry/1-k._kvartira_426_m_616_et._7870739127",
   },
 ]
 
@@ -107,13 +111,25 @@ export function Projects() {
 
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <h3 className="text-xl font-medium mb-2 group-hover:underline underline-offset-4">{project.title}</h3>
+                  <h3 className="text-xl font-medium mb-2">{project.title}</h3>
                   <p className="text-muted-foreground text-sm">
                     {project.category}
                   </p>
                   <p className="text-muted-foreground text-sm">{project.location}</p>
                 </div>
-                <span className="text-foreground font-medium text-sm">{project.year}</span>
+                <span className="text-foreground font-medium text-sm whitespace-nowrap">{project.year}</span>
+              </div>
+              <div className="mt-4">
+                <a
+                  href={project.avito}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm border border-foreground/20 px-4 py-2 hover:bg-foreground hover:text-white transition-all duration-300"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  Смотреть на Авито
+                  <ArrowUpRight className="w-3.5 h-3.5" />
+                </a>
               </div>
             </article>
           ))}
