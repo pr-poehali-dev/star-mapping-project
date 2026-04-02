@@ -59,10 +59,6 @@ export function CallToAction() {
                 <p className="text-primary-foreground/50 text-xs tracking-[0.2em] uppercase mb-1">E-mail</p>
                 <a href="mailto:gildiya43@yandex.ru" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">gildiya43@yandex.ru</a>
               </div>
-              <div>
-                <p className="text-primary-foreground/50 text-xs tracking-[0.2em] uppercase mb-1">Сайт</p>
-                <a href="https://43grv.ru" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">43grv.ru</a>
-              </div>
               <div className="pt-4 border-t border-primary-foreground/10">
                 <p className="text-primary-foreground/50 text-xs tracking-[0.2em] uppercase mb-1">Президент гильдии</p>
                 <p className="text-primary-foreground font-medium">Чешуина Светлана Ивановна</p>
