@@ -6,7 +6,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
+              <img src="https://cdn.poehali.dev/projects/0310d3c5-5cfa-44fd-bdb9-25f13d127fc6/bucket/25b9e61c-572e-4e26-adff-72040eec0f4a.png" alt="Фемида" className="w-auto h-16 object-contain" />
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Риэлторское агентство полного цикла. Помогаем купить, продать и арендовать недвижимость безопасно и выгодно.
@@ -42,20 +42,28 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-sm font-medium mb-4">Связь</h4>
+            <h4 className="text-sm font-medium mb-4">Контакты</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li>
-                <a href="mailto:gildiya43@yandex.ru" className="hover:text-foreground transition-colors">
-                  gildiya43@yandex.ru
-                </a>
-              </li>
-              <li>
-                <a href="tel:+78332455402" className="hover:text-foreground transition-colors">
-                  (8332) 455-402
-                </a>
+              <li className="text-muted-foreground">
+                ИП Садаков Дмитрий Владимирович
               </li>
               <li className="text-muted-foreground">
-                610017, г. Киров,<br />ул. Молодой Гвардии, д. 82
+                г. Киров, ул. Преображенская, д. 84, корп. 1
+              </li>
+              <li>
+                <a href="tel:+79642565000" className="hover:text-foreground transition-colors">
+                  +7 (964) 256-50-00
+                </a>
+              </li>
+              <li>
+                <a href="mailto:femidakirov@mail.ru" className="hover:text-foreground transition-colors">
+                  femidakirov@mail.ru
+                </a>
+              </li>
+              <li>
+                <a href="https://vk.com/femida43an" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  ВКонтакте
+                </a>
               </li>
             </ul>
           </div>
