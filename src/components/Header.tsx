@@ -33,7 +33,7 @@ export function Header() {
     >
       <nav className="container mx-auto px-6 flex items-center justify-between md:px-[24]">
         <a href="/" className="flex items-center gap-2 group" onClick={scrollToTop}>
-          <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
+          <img src="https://cdn.poehali.dev/projects/0310d3c5-5cfa-44fd-bdb9-25f13d127fc6/bucket/25b9e61c-572e-4e26-adff-72040eec0f4a.png" alt="Фемида" className="w-auto h-12 object-contain" />
         </a>
 
         <ul className="hidden md:flex items-center gap-10 text-sm tracking-wide">
