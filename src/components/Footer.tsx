@@ -37,6 +37,11 @@ export function Footer() {
                   Контакты
                 </a>
               </li>
+              <li>
+                <a href="/realtors" className="hover:text-foreground transition-colors">
+                  Аттестованные риэлторы
+                </a>
+              </li>
             </ul>
           </div>
 
