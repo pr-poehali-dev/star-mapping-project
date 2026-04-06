@@ -45,23 +45,23 @@ export function CallToAction() {
             <div className="space-y-6">
               <div>
                 <p className="text-primary-foreground/50 text-xs tracking-[0.2em] uppercase mb-1">Организация</p>
-                <p className="text-primary-foreground font-medium">АКО «Гильдия Риэлторов Вятки»</p>
+                <p className="text-primary-foreground font-medium">ИП Садаков Дмитрий Владимирович</p>
               </div>
               <div>
                 <p className="text-primary-foreground/50 text-xs tracking-[0.2em] uppercase mb-1">Адрес</p>
-                <p className="text-primary-foreground/80">610017, г. Киров,<br />ул. Молодой Гвардии, д. 82</p>
+                <p className="text-primary-foreground/80">г. Киров, ул. Преображенская, д. 84, корп. 1</p>
               </div>
               <div>
                 <p className="text-primary-foreground/50 text-xs tracking-[0.2em] uppercase mb-1">Телефон</p>
-                <a href="tel:+78332455402" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">(8332) 455-402</a>
+                <a href="tel:+79642565000" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">+7 (964) 256-50-00</a>
               </div>
               <div>
                 <p className="text-primary-foreground/50 text-xs tracking-[0.2em] uppercase mb-1">E-mail</p>
-                <a href="mailto:gildiya43@yandex.ru" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">gildiya43@yandex.ru</a>
+                <a href="mailto:femidakirov@mail.ru" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">femidakirov@mail.ru</a>
               </div>
               <div className="pt-4 border-t border-primary-foreground/10">
-                <p className="text-primary-foreground/50 text-xs tracking-[0.2em] uppercase mb-1">Президент гильдии</p>
-                <p className="text-primary-foreground font-medium">Чешуина Светлана Ивановна</p>
+                <p className="text-primary-foreground/50 text-xs tracking-[0.2em] uppercase mb-1">ВКонтакте</p>
+                <a href="https://vk.com/femida43an" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">vk.com/femida43an</a>
               </div>
             </div>
 
