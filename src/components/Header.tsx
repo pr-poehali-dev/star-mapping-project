@@ -5,6 +5,8 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+  const isHome = window.location.pathname === "/"
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50)
@@ -22,6 +24,8 @@ export function Header() {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
+  const navLink = (hash: string) => isHome ? hash : `/${hash}`
+
   return (
     <header
       className={cn(
@@ -38,11 +42,11 @@ export function Header() {
 
         <ul className="hidden md:flex items-center gap-10 text-sm tracking-wide">
           {[
-            { label: "Главная", href: "#hero" },
-            { label: "О нас", href: "#about" },
-            { label: "Объекты", href: "#projects" },
-            { label: "Услуги", href: "#services" },
-            { label: "Вопросы", href: "#faq" },
+            { label: "Главная", href: navLink("#hero") },
+            { label: "О нас", href: navLink("#about") },
+            { label: "Объекты", href: navLink("#projects") },
+            { label: "Услуги", href: navLink("#services") },
+            { label: "Вопросы", href: navLink("#faq") },
             { label: "Риэлторы", href: "/realtors" },
           ].map((item) => (
             <li key={item.label}>
@@ -57,7 +61,7 @@ export function Header() {
         </ul>
 
         <a
-          href="#contact"
+          href={navLink("#contact")}
           className={cn(
             "hidden md:inline-flex items-center gap-2 text-sm px-5 py-2.5 transition-all duration-300",
             scrolled
@@ -96,11 +100,11 @@ export function Header() {
         <div className="container mx-auto px-6">
           <ul className="flex flex-col gap-6 mb-8">
             {[
-              { label: "Главная", href: "#hero" },
-              { label: "О нас", href: "#about" },
-              { label: "Объекты", href: "#projects" },
-              { label: "Услуги", href: "#services" },
-              { label: "Вопросы", href: "#faq" },
+              { label: "Главная", href: navLink("#hero") },
+              { label: "О нас", href: navLink("#about") },
+              { label: "Объекты", href: navLink("#projects") },
+              { label: "Услуги", href: navLink("#services") },
+              { label: "Вопросы", href: navLink("#faq") },
               { label: "Риэлторы", href: "/realtors" },
             ].map((item) => (
               <li key={item.label}>
@@ -116,7 +120,7 @@ export function Header() {
           </ul>
 
           <a
-            href="#contact"
+            href={navLink("#contact")}
             className="inline-flex items-center justify-center gap-2 text-sm px-5 py-2.5 bg-white text-foreground border border-foreground/20 hover:bg-foreground hover:text-white transition-all duration-300 mb-4"
             onClick={closeMobileMenu}
           >
